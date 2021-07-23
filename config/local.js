@@ -10,7 +10,7 @@ module.exports = {
     USER: "wallet_desa",
     PASS: "DF64gOtW",
     DB: "wallet_gamerD",
-    HOST: "94.237.96.93"
+    HOST: "127.0.0.1"
 },
   STRIPE: { 
     KEY:'sk_test_51DgyAJDdwKvLHaMCFWO0jnWJ6t3pupHKFMCvoFYQNV5IC3u0d9Deur5M8ZdkvIQw8GUTfkUSpMaSIOorDV7hiQ4i00EmZ5udiJ',
