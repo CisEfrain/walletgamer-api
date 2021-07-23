@@ -32,3 +32,23 @@ npm run migration
 ```sh
 npm run dev
 ```
+
+## Demo
+
+http://app-dev.walletgamer.com/
+
+```bash
+user: jhon@walletgamer.com
+pass: 12345678
+```
+
+## Add funds to account
+
+```python
+Paypal
+user: test@prueba.es
+pass: claveparapruebas
+
+Credit Card
+4242 4242 4242 4242
+```
