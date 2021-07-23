@@ -1,0 +1,20 @@
+{
+    "oro": {
+        "id": "oro",
+        "nombre": "Oro World of Warcraft",
+        "activo": true,
+        "comision": 17
+        },
+    "items":{
+        "id": "item",
+        "nombre": "Item World of Warcraft",
+        "activo": false,
+        "comision": 15
+    },
+    "personaje":{
+        "id": "personaje",
+        "nombre": "Personaje World of Warcraft",
+        "activo": true,
+        "comision": 20
+    }
+}

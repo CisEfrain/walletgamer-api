@@ -1,0 +1,66 @@
+{
+  "name": "walletgamer",
+  "description": "Api Wallet Gamer",
+  "author": {
+    "name": "Cis Jimenez"
+  },
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "devlocal": "cross-env NODE_ENV=local nodemon server.js",
+    "start": "node server.js",
+    "migration": "cross-env NODE_ENV=local MIGRATION=true node server.js",
+    "migration:pro": "cross-env NODE_ENV=production MIGRATION=true node server.js",
+    "lint": "eslint ./",
+    "build": "npm build",
+    "test": "cross-env NODE_ENV=development jest --forceExit"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cookie-parser": "~1.4.4",
+    "cors": "^2.8.5",
+    "cross-env": "^6.0.3",
+    "crypto": "^1.0.1",
+    "debug": "~2.6.9",
+    "email-templates": "^7.1.1",
+    "express": "~4.16.1",
+    "express-rate-limit": "^5.0.0",
+    "fs": "0.0.1-security",
+    "helmet": "^3.21.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "log4js": "^6.1.1",
+    "mysql2": "^2.2.5",
+    "nodemailer": "^6.4.13",
+    "paypal-rest-sdk": "^1.8.1",
+    "pug": "^3.0.0",
+    "sequelize": "^6.3.5",
+    "socket.io": "^3.0.0",
+    "stripe": "^8.117.0",
+    "telegraf": "^4.0.0",
+    "telegraf-inline-menu": "^5.3.0",
+    "uuid": "^8.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-node": "^11.0.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^25.1.0",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "supertest": "^4.0.2"
+  }
+}

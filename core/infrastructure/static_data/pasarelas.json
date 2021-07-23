@@ -1,0 +1,14 @@
+{
+    "paypal": {
+        "id": "paypal",
+        "nombre": "Paypal",
+        "activo": true,
+        "descripcion": "Paga seguro con paypal"
+        },
+    "personalizado":{
+        "id":"personalizado",
+        "nombre": "Fondear con otro medio de pago",
+        "activo": true,
+        "descripcion": "Paga con otro medio de pago"
+    }
+}

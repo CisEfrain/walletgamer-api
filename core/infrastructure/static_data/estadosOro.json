@@ -1,0 +1,122 @@
+{
+    "pagoCompleto":{
+        "paso": 2,
+        "nombre": "Pago completo",
+        "pasoSiguiente": "confirmadaVendedor",
+        "historial": "{#nombreComprador} ha comprado {#publicacion} a {#nombreVendedor}",
+        "vendedor": {
+            "principal": "Enhorabuena has vendido {#publicacion}",
+            "secundario": "Ahora sigue las instrucciones detalladamente para completar la transacción",
+            "instrucciones": "1.- Ingresa a tu cuenta de World of Warcraft Classic \n 2.- Agrega como amigo el personaje de tu contraparte ({#personaje}) \n 3.- Dentro de la misma sección ve a la pestaña “ignorar” para mostrar que tu compañero no se encuentra en la lista de ignorados \n 4.- Dirígete al buzón de la ciudad más cercana, y selecciona “enviar mensaje” \n 5.-Escribe el nombre del personaje de tu compañero de transacción ({#personaje}) \n 6.- En asunto coloca un mensaje simple que no incluya ninguna información relacionada con intercambio de oro o algo similar \n 7.- Ingresa la cantidad de oro correcta \n 8.- Presiona enviar \n 9.- Listo! Ya has completado la transferencia de oro correctamente,  ahora anda a tu cuenta de WalletGamer y haz clic en el botón: 'Ya he completado todas las instrucciones' \n NOTA: RECUERDA CAPTURAR TODO ESTE PROCESO EN VIDEO Y GUARDARLO PARA SOPORTE EN CASO DE QUE SE TE SEA SOLICITADO. “NO HACER ESTO PUEDO OCASIONARTE RETRASOS EN LA RECEPCIÓN DE TU DINERO Y/O LA ANULACIÓN DE LA TRANSACCIÓN, CON PERJUICIOS DIRECTOS PARA TI” ",
+            "botonContinuar": "Ya he completado todas las instrucciones",
+            "mail": "Se ha iniciado el proceso de venta de  {#publicacion}.<br><br>  Sigue las siguientes instrucciones para continuar con la transacción:<br><br> 1.- Ingresa a tu cuenta de World of Warcraft Classic <br>2.- Agrega como amigo el personaje de tu contraparte ({#personaje}) <br> 3.- Dentro de la misma sección ve a la pestaña “ignorar” para mostrar que tu compañero no se encuentra en la lista de ignorados <br> 4.- Dirígete al buzón de la ciudad más cercana, y selecciona “enviar mensaje” <br> 5.-Escribe el nombre del personaje de tu compañero de transacción ({#personaje}) <br> 6.- En asunto coloca un mensaje simple que no incluya ninguna información relacionada con intercambio de oro o algo similar <br> 7.- Ingresa la cantidad de oro correcta <br> 8.- Presiona enviar <br> 9.- Listo! Ya has completado la transferencia de oro correctamente, ahora anda a tu cuenta de WalletGamer y haz clic en el botón: 'Ya he completado todas las instrucciones'   <br><br> NOTA: RECUERDA CAPTURAR TODO ESTE PROCESO EN VIDEO Y GUARDARLO PARA SOPORTE EN CASO DE QUE SE TE SEA SOLICITADO. “NO HACER ESTO PUEDO OCASIONARTE RETRASOS EN LA RECEPCIÓN DE TU DINERO Y/O LA ANULACIÓN DE LA TRANSACCIÓN, CON PERJUICIOS DIRECTOS PARA TI” "
+        },
+        "comprador": {
+            "principal": "Enhorabuena has comprado {#publicacion}",
+            "secundario": "Ahora espera que el vendedor notifique que ha realizado la transferencia",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Haz iniciado el proceso de compra de {#publicacion}. <br><br> Le hemos enviado las instrucciones de la transferencia de Oro a {#nombreVendedor}, te notificaremos cuando las haya completado"
+        }
+    },
+    "confirmadaVendedor":{
+        "paso": 3,
+        "nombre": "Confirmada por vendedor",
+        "pasoSiguiente": "transaccionCompleta",
+        "historial": "{#nombreVendedor} ha confirmado que ha realizado la transferencia",
+        "vendedor": {
+            "principal": "Gracias, {#nombreComprador} estara muy contento. Le notificaremos de inmediato",
+            "secundario": "Por favor espera que {#nombreComprador}  confirme que ha recibido el {#publicacion} correctamente, recuerda que puedes contactarnos en caso de que no recibas la confirmación de parte de {#nombreComprador} ",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Le hemos notificado a {#nombreComprador} que haz realizado la transferencia y seguido todos los pasos correspondientes, por favor espera que lo haya confirmado. <br> Recuerda que puedes contactarnos en caso de tener algún inconveniente."
+        },
+        "comprador": {
+            "principal": "{#nombreVendedor} ya ha realizado la transferencia",
+            "secundario": "Ahora sigue detalladamente las siguientes instrucciones para confirmar que la haz recibido correctamente ",
+            "instrucciones": "1.- Ingresa a tu cuenta de World of Warcraft Classic \n 2.- Dirígete al buzón de la ciudad más cercana \n 3.- Revisa tu correo en busca de un mensaje enviado por tu compañero de transacción \n 4.-Confirma que el monto enviado sea el correcto \n 5.- Listo! Ya puedes confirmar la transacción dando clic en el botón: 'He recibido la transferencia'. De esta manera podremos liberar el pago a tu contraparte y se completara la operación satisfactoriamente.  \n\n NOTA: EN CASO DE ALGUN INCONVENIENTE ESTAMOS PARA TI. RECUERDA CAPTURAR LA PANTALLA O UN VIDEO QUE MUESTRE CON CLARIDAD EL PROBLEMA QUE HAS ENCONTRADO.",
+            "botonContinuar": "He recibido la transferencia",
+            "mail": "Por favor confirma que {#nombreVendedor} haya realizado la transferencia correctamente. Para ello sigue las siguientes instrucciones: <br><br> 1.- Ingresa a tu cuenta de World of Warcraft Classic <br> 2.- Dirígete al buzón de la ciudad más cercana <br> 3.- Revisa tu correo en busca de un mensaje enviado por tu compañero de transacción <br> 4.-Confirma que el monto enviado sea el correcto <br> 5.- Listo! Ya puedes confirmar la transacción entrando a tu cuenta de WalletGamer y dando clic en el botón: 'He recibido la transferencia'. De esta manera podremos liberar el pago a tu contraparte y se completara la operación satisfactoriamente.  <br><br> NOTA: EN CASO DE ALGUN INCONVENIENTE ESTAMOS PARA TI. RECUERDA CAPTURAR LA PANTALLA O UN VIDEO QUE MUESTRE CON CLARIDAD EL PROBLEMA QUE HAS ENCONTRADO."
+        }
+    },
+    "transaccionCompleta":{
+        "paso": 4,
+        "nombre": "Transacción completa",
+        "pasoSiguiente": false,
+        "historial": "La transacción ha culminado con éxito",
+        "vendedor": {
+            "principal": "Listo, {#nombreComprador} ha confirmado que ha recibido la transferencia",
+            "secundario": "Gracias por usar Wallet Gamer",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Se ha completado satisfactoriamente la transferencia, ya tienes tus fondos disponibles en tu cuenta de Wallet Gamer"
+        },
+        "comprador": {
+            "principal": "Listo, Ya recibiste tu compra. ",
+            "secundario": "Gracias por usar Wallet Gamer",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Se ha completado satisfactoriamente la transferencia."
+        }
+    },
+    "mediacion":{
+        "paso": 3,
+        "nombre": "En Mediación",
+        "pasoSiguiente": false,
+        "historial": "La transacción ha pasado a mediación",
+        "vendedor": {
+            "principal": "Un administrador está revisando esta transacción",
+            "secundario": "Por favor espera que te contactemos",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "La transacción ha pasado a mediación, estaremos revisando todas las evidencias correspondientes para resolver esta disputa lo más pronto posible, seguramente te contactaremos."
+        },
+        "comprador": {
+            "principal": "Un administrador está revisando esta transacción",
+            "secundario": "Por favor espera que te contactemos",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "La transacción ha pasado a mediación, estaremos revisando todas las evidencias correspondientes para resolver esta disputa lo más pronto posible, seguramente te contactaremos."
+        }
+    },
+    "canceladaStock":{
+        "paso": 4,
+        "nombre": "Cancelada por vendedor",
+        "pasoSiguiente": false,
+        "historial": "La transacción ha sido cancelada por falta de stock",
+        "vendedor": {
+            "principal": "Se ha la transferencia por falta de stock",
+            "secundario": "Recuerda verificar el stock disponible de tus publicaciones",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Se ha cancelado la transferencia de {#publicacion}, por favor verifica el stock disponible de tus publicaciones para evitar incovenientes en un futuro."
+        },
+        "comprador": {
+            "principal": "Disculpa, la transferencia ha sido cancelada por falta de stock",
+            "secundario": "Tienes los fondos disponible nuevamente en tu cuenta de Wallet Gamer",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Te notificamos que por error en la verificación del stock {#nombreVendedor} no puede realizar la transferencia de {#publicacion}. Tienes los fondos disponible nuevamente en tu cuenta de Wallet Gamer"
+        }
+    },
+    "canceladaIncumplimiento":{
+        "paso": 4,
+        "nombre": "Cancelada por administrador",
+        "pasoSiguiente": false,
+        "historial": "La transacción ha sido cancelada",
+        "vendedor": {
+            "principal": "Se ha cancelado la transferencia",
+            "secundario": "Puedes consultar los detalles contactando a un administrador",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Te notificamos hemos cancelado la transacción de {#publicacion}. Puedes consultar los detalles contactando a un administrador"
+        },
+        "comprador": {
+            "principal": "Se ha cancelado la transferencia",
+            "secundario": "Puedes consultar los detalles contactando a un administrador, Tus fondos estan disponibles en tu cuenta de Wallet Gamer ",
+            "instrucciones": false,
+            "botonContinuar": false,
+            "mail": "Te notificamos hemos cancelado la transacción de {#publicacion}. Puedes consultar los detalles contactando a un administrador. Recuerda que tienes los fondos disponibles en tu cuenta de WalletGamer"
+        }
+    }
+}

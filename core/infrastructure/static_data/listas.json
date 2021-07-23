@@ -1,0 +1,81 @@
+{ 
+    "estados_transaccion":[
+        "Pendiente",
+        "En Proceso",
+        "Completada",
+        "Anulada"
+    ],
+    "rangos": [
+        "Pollo",
+        "Cadete",
+        "Ninja",
+        "Magnate"
+    ],
+    "operaciones": [
+        "Compra",
+        "Venta",
+        "Devolucion",
+        "Transferencia",
+        "Desembolso"
+    ],
+    "facciones": [
+        "Horda",
+        "Alianza"
+    ],
+    "clases": [
+        "Guerrero",
+        "Paladin",
+        "Pícaro",
+        "Sacerdote",
+        "Mago",
+        "Brujo",
+        "Druida",
+        "Chaman",
+        "Cazador"
+    ],
+    "reinos": [
+        "Anathema",
+        "Arcanite Reaper",
+        "Ashkandi",
+        "Atiesh",
+        "Azuresong",
+        "Benediction",
+        "Bigglesworth",
+        "Blaumeux",
+        "Bloodsail Buccaneers",
+        "Deviate Delight",
+        "Earthfury",
+        "Faerlina",
+        "Fairbanks",
+        "Grobbulus",
+        "Heartseeker",
+        "Herod",
+        "Incendius",
+        "Kirtonos",
+        "Kromcrush",
+        "Kurinnaxx",
+        "Mankrik",
+        "Myzrael",
+        "Netherwind",
+        "Old Blanchy",
+        "Pagle",
+        "Rattlegore",
+        "Skeram",
+        "Smolderweb",
+        "Stalagg",
+        "Sulfuras",
+        "Thalnos",
+        "Thunderfury",
+        "Westfall",
+        "Whitemane",
+        "Windseeker"
+    ], 
+    "medios_desembolso":[
+        "Payonner",
+        "AirTm",
+        "Transferencia Bancaria Argentina",
+        "BitCoin",
+        "Skrill"
+    ]
+
+}
